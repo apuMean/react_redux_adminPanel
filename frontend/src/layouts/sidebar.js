@@ -42,7 +42,11 @@ export default class Sidebar extends Component {
                                     </li>
                                     <li >
                                         <Link to={'/users'}>
-                                            <i className="fa fa-map-marker"></i> Users List</Link>
+                                            <i className="fa fa-users"></i> Users</Link>
+                                    </li>
+                                    <li >
+                                        <Link to={'/add'}>
+                                            <i className="fa fa-plus"></i> New User</Link>
                                     </li>
 
 

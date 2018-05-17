@@ -1563,7 +1563,36 @@ span a {
   #nprogress .spinner .spinner-icon {
     border-top-color: #85CE36 !important;
     border-left-color: #85CE36 !important; }
-
+    .myPage{
+  margin-top: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; 
+}
+.myPage li{
+  /* padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5; */
+  padding: 0.50rem 1.0rem;
+  font-size: 1.0rem;
+  line-height: 1.5;
+  background: whitesmoke;
+  border: solid;
+  border-color: white;
+   cursor: pointer; 
+}
+.myPage li.active{
+background: #85ce36;
+}
+.myPage li.previous{
+ 
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+.myPage li.next{
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
 .pagination {
   margin-top: 0;
   display: -webkit-inline-box;

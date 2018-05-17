@@ -10,7 +10,7 @@ export default class Layout extends Component {
             <div>
                 <Header />
                 <Sidebar />
-                {/* <Footer/> */}
+                <Footer/>
             </div>
         );
     }
